@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Admissions Insights</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="auth" hidden></div>
+  <div id="splash" aria-hidden="true">
+    <div class="splash-inner">
+      <div class="splash-emblem">
+        <span class="splash-ring"></span>
+        <span class="splash-arc"></span>
+        <img class="splash-logo" src="logos/logo-emblem-gold.png" alt="" />
+      </div>
+      <div class="splash-title">Admissions Insights</div>
+      <div class="splash-bar"><span></span></div>
+    </div>
+  </div>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="logo-wrap">
+        <img class="logo-full" src="logos/logo-full-white.png" alt="CHRIST (Deemed to be University)" />
+      </div>
+      <nav class="tabs" aria-label="Sections"></nav>
+      <div class="sidebar-foot">Admission season 2026–27<div id="who" class="who"></div></div>
+    </aside>
+
+    <div class="content">
+      <header class="topbar">
+        <div class="brand">
+          <img class="logo-emblem" src="logos/logo-emblem-gold.png" alt="" />
+          <div>
+            <div class="title">Admissions Insights</div>
+            <div class="sub">Spend, enquiries and admissions by channel</div>
+          </div>
+        </div>
+        <div id="source-badge" class="badge">Synthetic demo data</div>
+      </header>
+
+      <main>
+        <section class="filters" id="filters" aria-label="Filters"></section>
+        <div id="main"></div>
+      </main>
+
+      <footer>Prototype · Records are kept in this browser and can be downloaded as a backup · Nothing is sent to a server</footer>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

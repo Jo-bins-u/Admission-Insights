@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Admissions Insights</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+
+    <aside class="sidebar">
+      <div class="logo-wrap">
+        <img class="logo-full" src="logos/logo-full-white.png" alt="CHRIST (Deemed to be University)" />
+      </div>
+      <nav class="tabs" aria-label="Dashboard sections">
+        <button data-tab="overview" class="active">Overview</button>
+        <button data-tab="channels">Channels &amp; spend</button>
+        <button data-tab="timing">Visit timing</button>
+        <button data-tab="students">Students</button>
+        <button data-tab="data">Data &amp; import</button>
+      </nav>
+      <div class="sidebar-foot">Admissions season 2026–27<br />Synthetic demo data</div>
+    </aside>
+
+    <div class="content">
+      <header class="topbar">
+        <div class="brand">
+          <img class="mark logo-emblem" src="logos/logo-emblem-gold.png" alt="CHRIST emblem" />
+          <div>
+            <div class="title">Admissions Insights</div>
+            <div class="sub">Spend, enquiries and admissions by channel</div>
+          </div>
+        </div>
+        <div id="source-badge" class="badge">Synthetic demo data</div>
+      </header>
+
+      <section class="filters" id="filters" aria-label="Filters"></section>
+
+      <main id="main"></main>
+
+      <footer>Prototype · synthetic data only · Files are processed in your browser and are not uploaded anywhere</footer>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

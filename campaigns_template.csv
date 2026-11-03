@@ -1,0 +1,6 @@
+channel,subtype,date,school,city,district,state,cost_inr,faculty
+Teacher visit,In-state visit,2026-07-04,Sacred Heart Public School,Mysuru,Mysuru,Karnataka,1450,Faculty A
+Teacher visit,Out-of-state visit,2026-07-09,Rosewood PU College,Hyderabad,Hyderabad,Telangana,6200,Faculty C
+Event,PU college seminar,2026-07-18,Rosewood PU College,Hyderabad,Hyderabad,Telangana,42000,Faculty C
+Social media ad,Instagram,2026-08-02,,Chennai,Chennai,Tamil Nadu,12500,
+Media (reels/YouTube),YouTube video,2026-08-10,,Pune,Pune,Maharashtra,18000,

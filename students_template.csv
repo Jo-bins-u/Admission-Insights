@@ -1,0 +1,5 @@
+student_id,city,district,state,school,course,enquiry_date,status
+S1001,Mysuru,Mysuru,Karnataka,Sacred Heart Public School,B.Com,2026-07-22,Applied
+S1002,Pune,Pune,Maharashtra,,BBA,2026-08-14,Enquired
+S1003,Hyderabad,Hyderabad,Telangana,Rosewood PU College,B.Sc,2026-08-30,Admitted
+S1004,Bengaluru,Bengaluru Urban,Karnataka,St. Mary's HS,BCA,2026-09-02,Enrolled
